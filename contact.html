@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="stylesheet" type="text/css" href="mstrom.css">
+   <link rel="icon" type="image/x-icon" href="images/favicon.png">
+   <title>Mary Stromberg Contact Information</title>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<header>
+   <a href = "index.html" >Mary Stromberg</a>
+</header>
+
+<nav>
+   <a href = "index.html">Home</a>
+   <div class="subnav">
+      <button class="subnavbtn">Experience</button>
+      <div class="subnav-content">
+         <a href = "multimedia.html">Multimedia</a><br>
+         <a href = "software.html">Software</a><br>
+         <a href = "leadership.html">Leadership</a><br>
+      </div>
+   </div>
+   <a href = "achievements.html">Education and Achievements</a>
+   <a href = "extras.html">Extra-Curriculars</a>
+   <a href = "contact.html">Contact Me</a>
+</nav>
+
+<main>
+   <h3>Request more information:</h3>
+   <form method="post" action="https://formspree.io/f/myyrgzyp">
+      <label for="name">Your name: </label><input type="text" name="name" id="name" placeholder="Required" required>
+      <label for="company">Company: </label><input type="text" name="company" id="company">
+      <label>Email: </label><input type="email" name="email" placeholder="Required" required>
+      <div class="checkboxes">
+         <p>Would you like more information on the following?</p>
+         <input type="checkbox" id="info1" name="info1" value="PDF resume">
+            <label for="info1">PDF Resume</label><br>
+         <input type="checkbox" id="info2" name="info2" value="References">
+            <label for="info2">References</label><br>
+         <input type="checkbox" id="info3" name="info3" value="Multimeda Portfolio">
+            <label for="info3">Multimedia Portfolio</label><br>
+         <input type="checkbox" id="info4" name="info4" value="Software Portfolio">
+            <label for="info4">Software Portfolio</label><br>
+      </div>
+      <br><label>Additional comments: </label><textarea name="message" rows="6"></textarea>
+      <input name="subject" type="hidden" value="Request for information from Resume Site">
+      <button type="submit" class="submitbutton">Submit</button>
+   </form>
+</main>
+
+<footer>
+   Copyright &copy; 2023 Mary Stromberg<br>
+   <a href="mailto:mary_str@live.com">Mary_Str@live.com</a>
+</footer>
+
+</div>
+
+</body>
+</html>
